@@ -161,19 +161,19 @@ section p {
   transform: translateY(-20px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-.image-2:hover {
+.Simvastatin-img:hover {
   transform: translateY(-20px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-.image-3:hover {
+.Insulin-img:hover {
   transform: translateY(-20px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-.image-4:hover {
+.Warfarin-img:hover {
   transform: translateY(-20px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-.image-5:hover {
+.Ciprofloxacin-img:hover {
   transform: translateY(-20px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
@@ -186,7 +186,7 @@ section p {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-/*end medicine styling*/
+/*end gallery styling*/
 
 /* Form Styling for Login Section */
 form {
