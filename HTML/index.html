@@ -15,6 +15,7 @@
           <li><a href="#home">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#medicine">Medicine</a></li>
+          <li><a href="#gallery">Gallery</a></li>
           <li><a href="#login">Login</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
@@ -47,21 +48,225 @@
     <!--start medicine section-->
     <section id="medicine">
       <h2>Our Medicines</h2>
-      <p>
-        Explore our wide range of pharmaceutical products for all your health
-        needs:
-      </p>
       <div class="medicine-gallery">
-        <img src="images/image.png" alt="images" class="medicine-img" />
-        <img src="medicine2.jpg" alt="images" class="medicine-img" />
-        <img src="medicine3.jpg" alt="images" class="medicine-img" />
-        <img src="medicine1.jpg" alt="images" class="medicine-img" />
-        <img src="medicine2.jpg" alt="images" class="medicine-img" />
-        <img src="medicine3.jpg" alt="images" class="medicine-img" />
-        <img src="medicine1.jpg" alt="images" class="medicine-img" />
-        <img src="medicine2.jpg" alt="images" class="medicine-img" />
-        <img src="medicine3.jpg" alt="images" class="medicine-img" />
-        <img src="medicine3.jpg" alt="images" class="medicine-img" />
+        <div class="medicine-item">
+          <img src="../images/Aspirin.png" alt="Aspirin" class="Aspirin-img" />
+          <div class="medicine-info">
+            <p><strong>Aspirin</strong></p>
+            <p>
+              An NSAID used to relieve pain, reduce inflammation, and lower
+              fever. It is also used in low doses to prevent heart attacks and
+              strokes.
+            </p>
+            <p><strong>Price:</strong> Birr 25</p>
+            <button class="buy-now" onclick="orderMedicine('Aspirin', 5.99)">
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="medicine-item">
+          <img
+            src="../images/paracetamol.jpg"
+            alt="Paracetamol"
+            class="paracetamol-img"
+          />
+          <div class="medicine-info">
+            <p><strong>Paracetamol</strong></p>
+            <p>
+              A common pain reliever and fever reducer. It is used to treat mild
+              to moderate pain and fever.
+            </p>
+            <p><strong>Price:</strong> Birr 30</p>
+            <button class="buy-now" onclick="orderMedicine('Panadol', 4.50)">
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="medicine-item">
+          <img
+            src="../images/amoxicillin.jpg"
+            alt="Amoxicillin"
+            class="amoxicillin-img"
+          />
+          <div class="medicine-info">
+            <p><strong>Amoxicillin</strong></p>
+            <p>
+              An antibiotic used to treat bacterial infections such as
+              pneumonia, bronchitis, and ear infections.
+            </p>
+            <p><strong>Price:</strong> Birr 15</p>
+            <button class="buy-now" onclick="orderMedicine('Amoxicillin', 15)">
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="medicine-item">
+          <img
+            src="../images/ibuprofen.jpg"
+            alt="Ibuprofen"
+            class="ibuprofen-img"
+          />
+          <div class="medicine-info">
+            <p><strong>Ibuprofen</strong></p>
+            <p>
+              A nonsteroidal anti-inflammatory drug (NSAID) used to reduce pain,
+              inflammation, and fever.
+            </p>
+            <p><strong>Price:</strong> Birr 45</p>
+            <button class="buy-now" onclick="orderMedicine('Ibuprofen', 45)">
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="medicine-item">
+          <img
+            src="../images/Simvastatin.jpg"
+            alt="Simvastatin"
+            class="Simvastatin-img"
+          />
+          <div class="medicine-info">
+            <p><strong>Simvastatin</strong></p>
+            <p>
+              A statin medication used to lower cholesterol and reduce the risk
+              of heart disease.
+            </p>
+            <p><strong>Price:</strong> Birr 70</p>
+            <button class="buy-now" onclick="orderMedicine('Medicine 2', 70)">
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="medicine-item">
+          <img src="../images/image-3.jpg" alt="Insulin" class="Insulin-img" />
+          <div class="medicine-info">
+            <p><strong>Insulin</strong></p>
+            <p>
+              A hormone used to regulate blood sugar levels in people with
+              diabetes.It is used as a medication to manage diabetes by helping
+              cells absorb glucose for energy.
+            </p>
+            <p><strong>Price:</strong> Birr 55</p>
+            <button class="buy-now" onclick="orderMedicine('Medicine 3', 55)">
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="medicine-item">
+          <img
+            src="../images/image-4.jpg"
+            alt="Warfarin"
+            class="Warfarin-img"
+          />
+          <div class="medicine-info">
+            <p><strong>Warfarin</strong></p>
+            <p>
+              An anticoagulant (blood thinner) used to prevent and treat blood
+              clots.
+            </p>
+            <p><strong>Price:</strong> Birr 50</p>
+            <button class="buy-now" onclick="orderMedicine('Medicine 4', 50)">
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="medicine-item">
+          <img
+            src="../images/ciprofloxacin-mg.png"
+            alt="Ciprofloxacin"
+            class="Ciprofloxacin-img"
+          />
+          <div class="medicine-info">
+            <p><strong>Ciprofloxacin</strong></p>
+            <p>
+              An antibiotic used to treat bacterial infections, including
+              urinary tract infections and respiratory infections.
+            </p>
+            <p><strong>Price:</strong> Birr 25</p>
+            <button class="buy-now" onclick="orderMedicine('Medicine 5', 25)">
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="medicine-item">
+          <img
+            src="../images/Azithromycin.jpg"
+            alt="Azithromycin"
+            class="Azithromycin"
+          />
+          <div class="medicine-info">
+            <p><strong>Azithromycin</strong></p>
+            <p>
+              Azithromycin is essential in treating a variety of bacterial
+              infections due to its broad spectrum of activity and
+              effectiveness.
+            </p>
+            <p><strong>Price:</strong> Birr 40</p>
+            <button class="buy-now" onclick="orderMedicine('Azithromycin', 40)">
+              Buy Now
+            </button>
+          </div>
+        </div>
+
+        <div class="medicine-item">
+          <img
+            src="../images/omeprazole.jpg"
+            alt="omeprazole"
+            class="omeprazole"
+          />
+          <div class="medicine-info">
+            <p><strong>Omeprazole</strong></p>
+            <p>
+              A proton pump inhibitor (PPI) used to reduce stomach acid
+              production and treat conditions like acid reflux.
+            </p>
+            <p><strong>Price:</strong> Birr 35</p>
+            <button class="buy-now" onclick="orderMedicine('omeprazole', 35)">
+              Buy Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end medicine section-->
+
+    <!--start gallery section-->
+    <h2 class="MD-g">Medicine Gallery</h2>
+    <section id="gallery">
+      <div class="gallery-img">
+        <img src="../images/Aspirin.png" alt="images" class="Aspirin-img" />
+        <img
+          src="../images/paracetamol.jpg"
+          alt="images"
+          class="paracetamol-img"
+        />
+        <img
+          src="../images/amoxicillin.jpg"
+          alt="images"
+          class="amoxicillin-img"
+        />
+        <img src="../images/ibuprofen.jpg" alt="images" class="ibuprofen-img" />
+        <img src="../images/image-2.jpg" alt="images" class="image-2" />
+        <img src="../images/image-3.jpg" alt="images" class="image-3" />
+        <img src="../images/image-4.jpg" alt="images" class="image-4" />
+        <img src="../images/image-5.jpg" alt="images" class="image-5" />
+        <img
+          src="../images/omeprazole.jpg"
+          alt="omeprazole"
+          class="omeprazole"
+        />
+        <img
+          src="../images/Azithromycin.jpg"
+          alt="Azithromycin"
+          class="Azithromycin"
+        />
       </div>
     </section>
     <!--end medicine section-->
