@@ -1,0 +1,204 @@
+/* General Reset */
+* {
+  /*
+  background-image: url(../images/white\ image.jpg);
+  */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+
+body {
+  background-image: url(../images/background\ image.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+}
+
+/* Header Styling */
+a {
+  text-decoration: none;
+  color: slateblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar .logo {
+  font-size: 50px;
+  font-weight: 900;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar ul li {
+  list-style: none;
+  margin-left: 30px;
+}
+.navbar ul li a {
+  font-size: 20px;
+  font-weight: 500;
+  transition: 0.5s;
+}
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Section Styling */
+section {
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+section h2 {
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+section p {
+  color: black;
+}
+
+/*About section styling*/
+
+.abt {
+  text-align: center;
+  color: #333;
+}
+
+#about {
+  background-image: url(../images/image.png);
+}
+
+.about-1 {
+  margin-bottom: 20px;
+}
+
+.about-1 h1 {
+  font-size: 2em;
+  color: slateblue;
+}
+
+.about-1 p {
+  font-size: 1.2em;
+  color: black;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content-box-lg {
+  padding: 20px;
+}
+
+.container-abt {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.col-md-4 {
+  flex: 1;
+  min-width: 250px;
+  max-width: 30%;
+  box-sizing: border-box;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.about-item {
+  background-image: url(../images/Soft\ BK\ images.jpg);
+  background-color: darkgray;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.about-item:hover {
+  transform: translateY(-30px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.about-item i {
+  font-size: 3em;
+  color: darkblue;
+  margin-bottom: 10px;
+}
+
+.about-item h3 {
+  font-size: 1.5em;
+  color: slateblue;
+  margin-bottom: 10px;
+}
+
+.about-item p {
+  font-size: 1em;
+}
+/*end about section*/
+
+/* Footer Styling */
+footer {
+  background-color: blueviolet;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.social-media a {
+  margin: 0 10px;
+  color: #fff;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+  color: #1da1f2; /* Change to the color you prefer */
+}
+
+.social-media img {
+  width: 24px;
+  height: 24px;
+}
+/*end footer section*/
