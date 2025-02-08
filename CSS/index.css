@@ -238,39 +238,112 @@ section p {
 
 /*end gallery styling*/
 
-/* Form Styling for Login Section */
-form {
-  margin-top: 20px;
-  max-width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+/*  Login styling */
+
+/* Container to center the forms */
+.container {
+  background-image: url(../images/Soft\ BK\ images.jpg);
+
+  display: grid;
+  place-items: center; /* Center both horizontally and vertically */
+  height: 100vh;
+  background-color: #f0f0f0;
 }
 
-form input {
+/* Radio buttons for toggling (hidden from view) */
+input[type="radio"] {
+  display: none;
+}
+
+/* Form section styling */
+.form-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 80px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #ffffff;
+  max-width: 600px;
   width: 100%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* General form styling */
+
+form {
+  display: grid;
+  gap: 15px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
   padding: 10px;
-  margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  font-size: 16px;
 }
 
-form button {
-  width: 100%;
+button[type="submit"] {
   padding: 10px;
-  background-color: blue;
+  background-color: #007bff;
   color: white;
   border: none;
   border-radius: 4px;
+  font-size: 16px;
   cursor: pointer;
 }
 
-form button:hover {
-  background-color: black;
+button[type="submit"]:hover {
+  background-color: #0056b3;
 }
+
+/* Links styling */
+.switch-form {
+  color: #007bff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.switch-form:hover {
+  text-decoration: underline;
+}
+
+/* Default state: show the login form and hide the register form */
+#register {
+  display: none;
+}
+
+/* When the register radio button is selected, show the register form and hide the login form */
+#register-toggle:checked ~ #register {
+  display: block;
+}
+
+#register-toggle:checked ~ #login {
+  display: none;
+}
+
+/* When the login radio button is selected, show the login form and hide the register form */
+#login-toggle:checked ~ #login {
+  display: block;
+}
+
+#login-toggle:checked ~ #register {
+  display: none;
+}
+
+/*end login styling*/
+
 
 /*contact styling*/
 .contact {
