@@ -74,7 +74,6 @@ section p {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  position: absolute;
 }
 .home-info h1 {
   text-transform: uppercase;
