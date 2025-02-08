@@ -64,6 +64,52 @@ section p {
   color: black;
 }
 
+/*start home sectin*/
+.home {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  padding: 60px 9% 0;
+}
+.home-info h1 {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 60px;
+  text-align: center;
+  text-align: start;
+  margin-top: 20px;
+  color: slateblue;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.home-info p {
+  font-size: 20px;
+  margin: 10px 0 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.home-img .img-box {
+  width: 570px;
+  height: 620px;
+  padding: 100px;
+  margin-bottom: 10px;
+}
+.home-img .img-box .img-item {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+.home-img .img-box .img-item img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15%;
+}
+/*end home section*/
+
+
 /* Start Medicine  Styling */
 
 .medicine-gallery p {
