@@ -71,6 +71,10 @@ section p {
   height: 100vh;
   padding: 60px 9% 0;
   background-image: url(../images/background\ image.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
 }
 .home-info h1 {
   text-transform: uppercase;
