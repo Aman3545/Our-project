@@ -8,7 +8,6 @@
 
 /* Body Styling */
 body {
-  
   line-height: 1.6;
 }
 
@@ -195,7 +194,6 @@ section p {
   font-size: 1em;
 }
 /*end about section*/
-
 
 /* Start Medicine  Styling */
 
@@ -426,7 +424,6 @@ button[type="submit"]:hover {
 }
 
 /*end login styling*/
-
 
 /*contact styling*/
 .contact {
