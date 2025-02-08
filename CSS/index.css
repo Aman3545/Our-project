@@ -112,6 +112,84 @@ section p {
   border-radius: 15%;
 }
 /*end home section*/
+/*start about section*/
+
+.abt {
+  text-align: center;
+  color: #333;
+}
+
+#about {
+  background-image: url(../images/image.png);
+}
+
+.about-1 {
+  margin-bottom: 20px;
+}
+
+.about-1 h1 {
+  font-size: 2em;
+  color: slateblue;
+}
+
+.about-1 p {
+  font-size: 1.2em;
+  color: black;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content-box-lg {
+  padding: 20px;
+}
+
+.container-abt {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.col-md-4 {
+  flex: 1;
+  min-width: 250px;
+  max-width: 30%;
+  box-sizing: border-box;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.about-item {
+  background-image: url(../images/Soft\ BK\ images.jpg);
+  background-color: darkgray;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.about-item:hover {
+  transform: translateY(-30px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.about-item i {
+  font-size: 3em;
+  color: darkblue;
+  margin-bottom: 10px;
+}
+
+.about-item h3 {
+  font-size: 1.5em;
+  color: slateblue;
+  margin-bottom: 10px;
+}
+
+.about-item p {
+  font-size: 1em;
+}
+/*end about section*/
 
 
 /* Start Medicine  Styling */
