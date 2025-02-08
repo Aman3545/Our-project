@@ -70,6 +70,7 @@ section p {
   align-items: center;
   height: 100vh;
   padding: 60px 9% 0;
+  background-image: url(../images/background\ image.avif);
 }
 .home-info h1 {
   text-transform: uppercase;
