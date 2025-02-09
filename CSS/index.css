@@ -16,12 +16,12 @@ body {
 /* Header Styling */
 .navbar a {
   text-decoration: none;
- color: rgb(237, 7, 114);
+  color: rgb(237, 7, 114);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
 .navbar {
-background-color: #6278e6;
+  background-color: #6278e6;
   position: fixed;
   left: 0;
   top: 0;
