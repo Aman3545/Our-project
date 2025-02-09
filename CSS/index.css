@@ -431,10 +431,51 @@ button[type="submit"]:hover {
 .contact {
   text-align: center;
 }
-/* Footer Styling */
+/* start Footer Styling */
 footer {
+  background-color: blueviolet;
+  color: #fff;
+  padding: 20px;
   text-align: center;
-  padding: 10px;
-  background-color: black;
-  color: white;
+  font-size: 14px;
 }
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-links {
+  margin-top: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 10px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.social-media {
+  margin-top: 10px;
+}
+
+.social-media a {
+  margin: 0 10px;
+}
+
+.social-media img {
+  width: 30px;
+  height: 30px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.social-media img:hover {
+  opacity: 1;
+}
+
+/*end footer styling*/
