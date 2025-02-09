@@ -16,11 +16,12 @@ body {
 /* Header Styling */
 .navbar a {
   text-decoration: none;
-  color: green;
+ color: rgb(237, 7, 114);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
 .navbar {
+background-color: #6278e6;
   position: fixed;
   left: 0;
   top: 0;
@@ -100,8 +101,9 @@ section p {
 .home-img .img-box {
   width: 570px;
   height: 620px;
-  padding: 100px;
+  padding: 120px;
   margin-bottom: 10px;
+  margin-top: 100px;
 }
 .home-img .img-box .img-item {
   position: relative;
