@@ -523,15 +523,16 @@ footer {
   text-align: center;
   padding: 10px 0;
   position: fixed;
-  width: 80%;
+  width: 100%;
   bottom: 0;
 }
 /*end contact styling*/
+
 /* start Footer Styling */
 footer {
   background-color: blueviolet;
   color: #fff;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   font-size: 14px;
 }
