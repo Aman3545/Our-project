@@ -517,17 +517,8 @@ button:hover {
   background-color: #45a049;
 }
 
-footer {
-  background-color: #333;
-  color: white;
-  text-align: center;
-  padding: 10px 0;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
-}
 /*end contact styling*/
-/* Footer Styling */
+/* start Footer Styling */
 footer {
   background-color: blueviolet;
   color: #fff;
@@ -573,3 +564,5 @@ footer {
 .social-media img:hover {
   opacity: 1;
 }
+
+/*end footer styling*/
