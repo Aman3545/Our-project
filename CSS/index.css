@@ -402,12 +402,10 @@ button[type="submit"]:hover {
   text-decoration: underline;
 }
 
-/* Default state: show the login form and hide the register form */
 #register {
   display: none;
 }
 
-/* When the register radio button is selected, show the register form and hide the login form */
 #register-toggle:checked ~ #register {
   display: block;
 }
@@ -416,7 +414,6 @@ button[type="submit"]:hover {
   display: none;
 }
 
-/* When the login radio button is selected, show the login form and hide the register form */
 #login-toggle:checked ~ #login {
   display: block;
 }
@@ -426,7 +423,8 @@ button[type="submit"]:hover {
 }
 
 /*end login styling*/
-/*contact styling*/
+
+/*start contact styling*/
 
 .contact-grid {
   display: grid;
@@ -437,7 +435,7 @@ button[type="submit"]:hover {
 .contact-info,
 .contact-form,
 .map-container {
-  background-color: #f4f4f4;
+
   padding: 20px;
   border-radius: 8px;
 }
