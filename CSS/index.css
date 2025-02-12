@@ -334,9 +334,8 @@ align-items: center;
 justify-content: center;
   display: flex;
   place-items: center; /* Center both horizontally and vertically */
-  height: 100vh;}
-  background-color:;
-  background-size: cover;
+  height: 100vh;
+ background-size:cover;
   background-position:center;
 }
 
