@@ -435,7 +435,7 @@ button[type="submit"]:hover {
 .contact-info,
 .contact-form,
 .map-container {
-  background-color: #f4f4f4;
+  background-color: none;
   padding: 20px;
   border-radius: 8px;
 }
