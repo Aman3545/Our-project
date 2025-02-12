@@ -8,7 +8,11 @@
 
 /* Body Styling */
 body {
+<<<<<<< Updated upstream
   
+=======
+ background-color: blue;
+>>>>>>> Stashed changes
   line-height: 1.6;
 }
 
@@ -325,12 +329,20 @@ section p {
 
 /* Container to center the forms */
 .container {
+<<<<<<< Updated upstream
   background-image: url(../images/store.jpg);
 align-items: center;
 justify-content: center;
   display: flex;
   place-items: center; /* Center both horizontally and vertically */
   height: 100vh;
+=======
+  background-image: url(images/store.jpg) no-repeat;
+
+  display: grid;
+ place-items: center;  /* Center both horizontally and vertically */
+ min-height: 100vh; 
+>>>>>>> Stashed changes
   background-color: #f0f0f0;
   background-size: cover;
   background-position:center;
