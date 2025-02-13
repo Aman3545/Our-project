@@ -18,6 +18,7 @@ body {
     "Lucida Sans", Arial, sans-serif;
 }
 .header {
+  z-index: 50;
   background-color: #6278e6;
   position: fixed;
   left: 0;
