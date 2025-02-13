@@ -364,7 +364,7 @@ section p {
 /* start Login styling */
 
 .container {
-  background-image:url(../images/store.png);
+  background-image: url(../images/store.png);
 
   display: grid;
   place-items: center; /* Center both horizontally and vertically */
