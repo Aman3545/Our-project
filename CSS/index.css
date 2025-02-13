@@ -250,6 +250,46 @@ section p {
 .buy-now:hover {
   background-color: blue;
 }
+.Aspirin-img:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.paracetamol-img:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.amoxicillin-img:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.ibuprofen-img:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.Simvastatin-img:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.Insulin-img:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.Warfarin-img:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.Ciprofloxacin-img:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.omeprazole:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.Azithromycin:hover {
+  transform: translateY(-20px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
 /*end medicine styling*/
 
 /*start gallery styling*/
@@ -506,7 +546,6 @@ button:hover {
 
 /*end game styling*/
 
-
 /*start contact styling*/
 
 .contact-grid {
@@ -560,7 +599,6 @@ button:hover {
   height: 100%;
   border-radius: 8px;
 }
-
 
 /* start Footer Styling */
 footer {
