@@ -119,9 +119,10 @@ section p {
 /*end home section*/
 /*start about section*/
 
-.abt {
+.abtn {
+  font-size: 160%;
   text-align: center;
-  color: #333;
+  color: black;
 }
 
 #about {
