@@ -423,6 +423,90 @@ button[type="submit"]:hover {
 
 /*end login styling*/
 
+/*start game styling*/
+
+.game-container {
+  background-color: darkorchid;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(176, 63, 122, 0.1);
+}
+
+h1 {
+  text-align: center;
+}
+
+#game-choice {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#game-board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 5px;
+  justify-content: center;
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.square:hover {
+  background-color: #e0e0e0;
+}
+
+#reset-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: darkorange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#reset-button:hover {
+  background-color: blue;
+}
+
+.game-status {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/*end game styling*/
+
+
 /*start contact styling*/
 
 .contact-grid {
