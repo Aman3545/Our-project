@@ -10,16 +10,14 @@ body {
   line-height: 1.6;
 }
 
-/* Header Styling */
-
-/* Header Styling */
-.navbar a {
+/* start Header Styling */
+.header a {
   text-decoration: none;
   color: rgb(237, 7, 114);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
-.navbar {
+.header {
   background-color: #6278e6;
   position: fixed;
   left: 0;
@@ -31,23 +29,23 @@ body {
   justify-content: space-around;
   align-items: center;
 }
-.navbar .logo {
+.header .logo {
   font-size: 50px;
   font-weight: 900;
 }
-.navbar ul {
+.header ul {
   display: flex;
 }
-.navbar ul li {
+.header ul li {
   list-style: none;
   margin-left: 30px;
 }
-.navbar ul li a {
+.header ul li a {
   font-size: 20px;
   font-weight: 500;
   transition: 0.5s;
 }
-.navbar ul li a:hover {
+.header ul li a:hover {
   text-decoration: underline;
 }
 
@@ -321,14 +319,14 @@ section p {
 
 /*end gallery styling*/
 
-/*  Login styling */
+/* start Login styling */
 
-/* Container to center the forms */
+
 .container {
   background-image: url(../images/Soft\ BK\ images.jpg);
 
   display: grid;
-  place-items: center; /* Center both horizontally and vertically */
+  place-items: center;
   height: 100vh;
   background-color: #f0f0f0;
 }
