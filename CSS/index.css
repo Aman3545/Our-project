@@ -322,19 +322,19 @@ section p {
   transform: translateY(-20px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-.paracetamol-img:hover {
+.photo-2:hover {
   transform: translateY(-20px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-.amoxicillin-img:hover {
+.photo-3:hover {
   transform: translateY(-20px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-.ibuprofen-img:hover {
+.photo-4:hover {
   transform: translateY(-20px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-.Simvastatin-img:hover {
+.photo-5:hover {
   transform: translateY(-20px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
