@@ -278,7 +278,7 @@ section p {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow for a modern look */
 }
 
-.Aspirin-img:hover {
+.Captured-img:hover {
   transform: translateY(-20px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
