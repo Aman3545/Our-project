@@ -7,7 +7,6 @@
 
 /* Body Styling */
 body {
-  
   line-height: 1.6;
 }
 
@@ -350,11 +349,11 @@ section p {
   transform: translateY(-20px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-.omeprazole:hover {
+.omeprazole-img:hover {
   transform: translateY(-20px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-.Azithromycin:hover {
+.Azithromycin-img:hover:hover {
   transform: translateY(-20px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
@@ -364,13 +363,13 @@ section p {
 /* start Login styling */
 
 .container {
-  background-image:url(../images/store.jpg);
+  background-image: url(../images/store.jpg);
 
   display: grid;
   place-items: center; /* Center both horizontally and vertically */
   height: 100vh;
- background-size:cover;
-  background-position:center;
+  background-size: cover;
+  background-position: center;
 }
 
 /* Radio buttons for toggling (hidden from view) */
@@ -380,27 +379,26 @@ input[type="radio"] {
 
 /* Form section styling */
 .form-section {
-  display:grid;
+  display: grid;
   grid-template-columns: 1fr;
   gap: 20px;
   padding: 80px;
   border: 2px solid gray;
   border-radius: 20px;
-  background-color:transparent;
+  background-color: transparent;
   max-width: 600px;
   width: 100%;
   backdrop-filter: blur(20px);
-  box-shadow:0 0 30px rgb(0, 0, 5);
-  
-}/*the box of the email*/
-.form-section input{
-  width:100%;
-  height:100%;
-  background:transparent;
-  border:none;
-  outline:none;
-  font-weight:600;
-  padding:0 35px 0 5px;
+  box-shadow: 0 0 30px rgb(0, 0, 5);
+} /*the box of the email*/
+.form-section input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  padding: 0 35px 0 5px;
 }
 
 /* General form styling */
@@ -431,7 +429,7 @@ input[type="password"] {
 /*the login button*/
 .form-section button {
   padding: 10px;
-  background-color:rgb(24, 24, 24);
+  background-color: rgb(24, 24, 24);
   color: white;
   border: none;
   border-radius: 10px;
@@ -445,14 +443,14 @@ input[type="password"] {
 
 /* Links styling */
 .switch-form {
-  color:black;
+  color: black;
   text-decoration: none;
   cursor: pointer;
 }
 
 .switch-form:hover {
   text-decoration: underline;
-  color:powderblue;
+  color: powderblue;
 }
 
 #register {
