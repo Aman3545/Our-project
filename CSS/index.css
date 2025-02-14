@@ -365,7 +365,6 @@ section p {
 
 .container {
   background-image: url(../images/store.png);
-
   display: grid;
   place-items: center; /* Center both horizontally and vertically */
   height: 100vh;
@@ -408,17 +407,17 @@ form {
   display: grid;
   gap: 15px;
 }
-
+/*--heading part*/
 h2 {
   text-align: center;
   margin-bottom: 20px;
 }
-
+/*--box in the form*/
 label {
   font-weight: bold;
   margin-bottom: 5px;
 }
-
+/*--all input with type text and password*/
 input[type="text"],
 input[type="password"] {
   padding: 10px;
