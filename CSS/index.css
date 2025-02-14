@@ -395,7 +395,7 @@ input[type="radio"] {
   width: 100%;
   height: 100%;
   background: transparent;
-  border:none;
+  border: none;
   outline: none;
   font-weight: 600;
   padding: 0 35px 0 5px;
@@ -421,7 +421,7 @@ label {
 input[type="text"],
 input[type="password"] {
   padding: 10px;
-  border: 1px solid black;
+  border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
 }
@@ -438,8 +438,7 @@ input[type="password"] {
 }
 
 .form-section button:hover {
-  background-color: #065eb6;
-  
+  background-color: #48525c;
 }
 
 /* Links styling */
@@ -451,7 +450,7 @@ input[type="password"] {
 
 .switch-form:hover {
   text-decoration: underline;
-  color:blue;
+  color: powderblue;
 }
 
 #register {
