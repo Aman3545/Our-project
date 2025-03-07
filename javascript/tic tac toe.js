@@ -74,24 +74,24 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   /* Computer Move*/
-  const computerMove = () => {
-    const emptySquares = gameState
+  const computerMove = () => { //Show an arrow
+    const emptySquares = gameState// find empty square 
       .map((value, index) => (value === "" ? index : -1))
       .filter((index) => index !== -1);
 
-    const randomIndex =
+    const randomIndex =  //select an index from the list
       emptySquares[Math.floor(Math.random() * emptySquares.length)];
-    gameState[randomIndex] = "O";
-    squares[randomIndex].textContent = "O";
-    if (checkWinner()) {
-      gameStatus.textContent = "Computer wins!";
-      gameActive = false;
-    } else if (gameState.every((cell) => cell !== "")) {
-      gameStatus.textContent = "It's a draw!";
-      gameActive = false;
+    gameState[randomIndex] = "O";//marks the  randomly selected square 
+    squares[randomIndex].textContent = "O";// updates the visual representation 
+    if (checkWinner()) {//calls checkwinner
+      gameStatus.textContent = "Computer wins!";//to show the computer is win
+      gameActive = false;//end the game 
+    } else if (gameState.every((cell) => cell !== "")) {//show there are no empty square left
+      gameStatus.textContent = "It's a draw!";//show no one has won
+      gameActive = false;// end the game there are no more possible move
     } else {
-      currentPlayer = "X";
-      gameStatus.textContent = `${currentPlayer}'s turn`;
+      currentPlayer = "X";// set the currentplayer to 
+      gameStatus.textContent = `${currentPlayer}'s turn`;//update the game status message
     }
   };
 
